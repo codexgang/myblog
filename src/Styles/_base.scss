@@ -1,0 +1,39 @@
+.container#content {
+  margin-top: 60px;
+}
+body {
+  background-color: $white;
+}
+a {
+  color: #0056b3;
+  &:hover {
+    color: #007bff;
+    text-decoration: none
+  }
+}
+body {
+  font-family: $site-font;
+}
+h1 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+.navbar {
+  background-color: #20232A;
+  // border-right: 1px solid rgba(0, 0, 0, 0.4);
+  // border-left: 1px solid rgba(0, 0, 0, 0.4);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+  line-height: 1;
+}
+.navbar-dark .navbar-nav .nav-link,
+.navbar-dark .navbar-brand {
+  color: white;
+  &:hover {
+    color: #61DAFB;
+  }
+}
+ul {
+  list-style: none;
+  padding:  0;
+}
+
