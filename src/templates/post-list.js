@@ -63,4 +63,4 @@ export const postListQuery = graphql`
   }
 `
 
-export default postList
+export default postList;
