@@ -97,7 +97,7 @@ const Sidebar = ({ author, authorFluid }) => (
         </Form>
       </CardBody>
     </Card>
-    <Card>
+    {/* <Card>
       <CardBody>
         <CardTitle className="text-center text-uppercase">
           Advertisement
@@ -108,7 +108,7 @@ const Sidebar = ({ author, authorFluid }) => (
           style={{ width: '100%' }}
         />
       </CardBody>
-    </Card>
+    </Card> */}
     <Card>
       <CardBody>
         <CardTitle className="text-center text-uppercase mb-3">
