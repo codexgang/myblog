@@ -6,7 +6,7 @@ import Post from '../components/Post'
 import PaginationLinks from '../components/PaginationLinks'
 
 const IndexPage = () => {
-  const postsPerPage = 2
+  const postsPerPage = 2;
   let numberOfPages
   return (
     <Layout pageTitle="Welcome to Codex Gang ">

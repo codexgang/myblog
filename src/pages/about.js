@@ -3,14 +3,13 @@ import Layout from '../components/layout'
 import SEO from '../components/seo'
 
 const AboutPage = () => (
-  <Layout pageTitle="About us">
+  <Layout pageTitle="About Me">
     <SEO title="About" keywords={[`gatsby`, `application`, `react`]} />
     <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus quibusdam
-      pariatur magnam nulla quis nobis rerum vitae in delectus modi
-      exercitationem amet quasi, distinctio illo blanditiis, adipisci, odio unde
-      minima numquam architecto! Odit sequi facere sit odio maiores possimus
-      ratione!
+        Hello, My Beutiful Friends!
+        I am Yash Singhal, I am 23 years old guy, that loves to 
+        build things.
+        Thank you! for visting my Blog!
     </p>
   </Layout>
 )
