@@ -5,7 +5,7 @@ import { StaticQuery, graphql } from 'gatsby'
 import Header from './header'
 import Footer from './Footer'
 import Sidebar from './Sidebar'
-import '../styles/index.scss'
+import '../styles/index.scss';
 
 import { Row, Col } from 'reactstrap'
 
