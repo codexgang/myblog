@@ -12,9 +12,9 @@ const SinglePost = ({ data, pageContext, location }) => {
   const post = data.markdownRemark.frontmatter
   const author = authors.find(x => x.name === post.author)
 
-  const baseUrl = 'https://gatsbytutorial.co.uk/'
+  const baseUrl = 'https://codexgang.netlify.app'
 
-  const disqusShortname = 'https-gatsbytutorial-co-uk'
+  const disqusShortname = 'codexgang'
   const disqusConfig = {
     identifier: data.markdownRemark.id,
     title: post.title,
